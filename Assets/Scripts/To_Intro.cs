@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Title : MonoBehaviour
+public class To_Intro : MonoBehaviour
 {
 
     public void StartGame()
     {
-        SceneManager.LoadScene("Intro");
+        SceneManager.LoadScene("Scenes/Scene");
         Debug.Log("Game Started");
     }
 

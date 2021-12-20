@@ -3,12 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Title : MonoBehaviour
+public class To_End : MonoBehaviour
 {
 
-    public void StartGame()
+    public void End1()
     {
-        SceneManager.LoadScene("Intro");
+        SceneManager.LoadScene("Scenes/End1");
+        Debug.Log("Game Started");
+    }
+    
+    public void End2()
+    {
+        SceneManager.LoadScene("Scenes/End2");
         Debug.Log("Game Started");
     }
 
